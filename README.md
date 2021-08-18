@@ -89,6 +89,8 @@ https://github.com/free5gc/free5gc/wiki/Installation#d-install-webconsole
 
 **In addition, according to [here](https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole#7-modify-the-existed-subscriber), there is a bug that the function to change the subscriber information registered in WebConsole does not work properly. Therefore, when you change the subscriber information, please delete it and then register again.**
 
+**--> Then, according to [this PR](https://github.com/free5gc/webconsole/pull/9), the WebConsole bug was fixed at 2021.08.03.**
+
 In addition, [3GPP TS 35.208](https://www.3gpp.org/DynaReport/35208.htm) "4.3 Test Sets" is published by 3GPP as test data for the 3GPP authentication and key generation functions (MILENAGE).
 
 Each DNs are as follows.
