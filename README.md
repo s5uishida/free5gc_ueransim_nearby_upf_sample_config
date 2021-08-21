@@ -607,6 +607,8 @@ Add IP addresses for (AMF1 & SMF1) and (AMF2 & SMF2).
 ip addr add 192.168.0.142/24 dev enp0s8
 ip addr add 192.168.0.143/24 dev enp0s8
 ```
+**Note. `enp0s8` is the network interface of `192.168.0.0/24` in my VirtualBox environment.
+Please change it according to your environment.**
 
 <h3 id="network_settings_up1">Network settings of free5GC 5GC U-Plane1</h3>
 
