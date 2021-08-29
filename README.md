@@ -48,7 +48,7 @@ The built simulation environment is as follows.
 <img src="./images/network-overview.png" title="./images/network-overview.png" width=1000px></img>
 
 The 5GC / UE / RAN used are as follows.
-- 5GC - free5GC v3.0.5 + updated version at 2021.07.27 - https://github.com/free5gc/free5gc
+- 5GC - free5GC v3.0.5 + updated version at 2021.08.09 - https://github.com/free5gc/free5gc
 - UE / RAN - UERANSIM v3.2.3 - https://github.com/aligungr/UERANSIM
 
 Each VMs are as follows.  
@@ -102,10 +102,10 @@ Each DNs are as follows.
 <h2 id="changes">Changes in configuration files of free5GC 5GC and UERANSIM UE / RAN</h2>
 
 Please refer to the following for building free5GC and UERANSIM respectively.
-- free5GC v3.0.5 + updated version at 2021.07.27 - https://github.com/free5gc/free5gc/wiki/Installation
+- free5GC v3.0.5 + updated version at 2021.08.09 - https://github.com/free5gc/free5gc/wiki/Installation
 - UERANSIM v3.2.3 - https://github.com/aligungr/UERANSIM/wiki/Installation
 
-**Note. This article is written in updated version of 2021.07.27, so please follow [this procedure](https://github.com/s5uishida/free5gc_ueransim_nearby_upf_sample_config#build-free5gc-and-ueransim) to change to the latest `main` branch before building free5GC.**
+**Note. This article is written in updated version of 2021.08.09, so please follow [this procedure](https://github.com/s5uishida/free5gc_ueransim_nearby_upf_sample_config#build-free5gc-and-ueransim) to change to the latest `main` branch before building free5GC.**
 
 <h3 id="changes_cp">Changes in configuration files of free5GC 5GC C-Plane</h3>
 
@@ -641,7 +641,7 @@ Next, configure NAPT.
 <h2 id="build">Build free5GC and UERANSIM</h2>
 
 Please refer to the following for building free5GC and UERANSIM respectively.
-- free5GC v3.0.5 + updated version at 2021.07.27 - https://github.com/free5gc/free5gc/wiki/Installation
+- free5GC v3.0.5 + updated version at 2021.08.09 - https://github.com/free5gc/free5gc/wiki/Installation
 - UERANSIM v3.2.3 - https://github.com/aligungr/UERANSIM/wiki/Installation
 
 Note. Install MongoDB with package manager on free5GC 5GC C-Plane machine.
@@ -658,7 +658,7 @@ It is not necessary to install MongoDB on free5GC 5GC U-Plane machines.
 
 https://github.com/free5gc/free5gc/wiki/Installation#d-install-webconsole
 
-**Note. This article is written in updated version of 2021.07.27, so please run the following script to checkout all NFs and WebConsole of free5GC to the latest `main` branch before building.**
+**Note. This article is written in updated version of 2021.08.09, so please run the following script to checkout all NFs and WebConsole of free5GC to the latest `main` branch before building.**
 ```
 #!/usr/bin/env bash
 
