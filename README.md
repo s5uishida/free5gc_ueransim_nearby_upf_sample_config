@@ -67,10 +67,10 @@ AMF & SMF addresses are as follows.
 | --- | --- | --- | --- | --- |
 | AMF1 | 192.168.0.142 | 127.0.0.18 | 1 | loc1 |
 | SMF1 | 192.168.0.142 | 127.0.0.2 | -- | loc1 |
-| PCF1 | 192.168.0.142 | 127.0.0.7 | -- | loc1 |
+| PCF1 | -- | 127.0.0.7 | -- | loc1 |
 | AMF2 | 192.168.0.143 | 127.0.0.28 | 2 | loc2 |
 | SMF2 | 192.168.0.143 | 127.0.0.12 | -- | loc2 |
-| PCF2 | 192.168.0.143 | 127.0.0.17 | -- | loc2 |
+| PCF2 | -- | 127.0.0.17 | -- | loc2 |
 
 gNodeB Information (other information is default) is as follows.  
 | gNodeB # | Location # | TAC # | IP address |
