@@ -84,9 +84,7 @@ Subscriber Information (other information is default) is as follows.
 | --- | --- | --- | --- | --- |
 | UE | 001010000000000 | internet | OPc | gNodeB1 in Loc1 <br> gNodeB2 in Loc2|
 
-I registered these information with the free5GC WebUI.  
-**Note. As of 2022.04.04, there is a bug that WebConsole cannot properly register IMSI starting with 0. Please refer to [here](https://github.com/free5gc/free5gc/issues/330) to deal with this.**
-
+I registered these information with the free5GC WebUI.
 In addition, [3GPP TS 35.208](https://www.3gpp.org/DynaReport/35208.htm) "4.3 Test Sets" is published by 3GPP as test data for the 3GPP authentication and key generation functions (MILENAGE).
 
 Each DNs are as follows.
