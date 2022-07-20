@@ -1012,6 +1012,7 @@ The free5GC U-Plane1 log when executed is as follows.
 ```
 The TUNnel interface `uesimtun0` is created as follows.
 ```
+# ip addr show
 ...
 9: uesimtun0: <POINTOPOINT,PROMISC,NOTRAILERS,UP,LOWER_UP> mtu 1400 qdisc fq_codel state UNKNOWN group default qlen 500
     link/none 
@@ -1244,6 +1245,7 @@ The free5GC U-Plane2 log when executed is as follows.
 ```
 The TUNnel interface `uesimtun0` is created as follows.
 ```
+# ip addr show
 ...
 10: uesimtun0: <POINTOPOINT,PROMISC,NOTRAILERS,UP,LOWER_UP> mtu 1400 qdisc fq_codel state UNKNOWN group default qlen 500
     link/none 
