@@ -72,6 +72,12 @@ AMF & SMF addresses are as follows.
 | SMF2 | 192.168.0.143 | 127.0.0.12 | -- | loc2 |
 | PCF2 | -- | 127.0.0.17 | -- | loc2 |
 
+GUAMIs are as follows.  
+| AMF | MCC | MNC | AMF ID |
+| --- | --- | --- | --- |
+| AMF1 | 001 | 01 | cafe00 |
+| AMF2 | 001 | 01 | cafe01 |
+
 gNodeB Information (other information is default) is as follows.  
 | gNodeB # | Location # | TAC # | IP address |
 | --- | --- | --- | --- |
