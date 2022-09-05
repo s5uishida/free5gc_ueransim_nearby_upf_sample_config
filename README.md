@@ -5,7 +5,7 @@ This describes a very simple configuration that uses free5GC and UERANSIM to sel
 
 <h2 id="conf_list">List of Sample Configurations</h2>
 
-1. [One SMF, Multiple UPFs and DNNs (without ULCL)](https://github.com/s5uishida/free5gc_ueransim_sample_config)
+1. [One SMF, Multiple UPFs and DNNs](https://github.com/s5uishida/free5gc_ueransim_sample_config)
 2. Select nearby UPF according to the connected gNodeB (this article)
 3. [Select UPF based on S-NSSAI](https://github.com/s5uishida/free5gc_ueransim_snssai_upf_sample_config)
 4. [ULCL(Uplink Classifier)](https://github.com/s5uishida/free5gc_ueransim_ulcl_sample_config)
