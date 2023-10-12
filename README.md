@@ -194,8 +194,6 @@ Please refer to the following for building free5GC and UERANSIM respectively.
      length: 1 # IE content length (uinteger, range: 1~3)
 ```
 - `free5gc/config/amfcfg2.yaml`
-
-Please deal with [this](https://github.com/free5gc/free5gc/pull/494) as well.
 ```diff
 --- amfcfg.yaml.orig    2022-04-01 20:25:54.000000000 +0900
 +++ amfcfg2.yaml        2022-08-11 16:45:08.075088545 +0900
