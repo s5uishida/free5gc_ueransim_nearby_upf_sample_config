@@ -141,8 +141,6 @@ Please refer to the following for building free5GC and UERANSIM respectively.
 ### Changes in configuration files of free5GC 5GC C-Plane
 
 - `free5gc/config/amfcfg1.yaml`
-
-Please deal with [this](https://github.com/free5gc/free5gc/pull/494) as well.
 ```diff
 --- amfcfg.yaml.orig    2022-04-01 20:25:53.176313323 +0900
 +++ amfcfg1.yaml        2022-04-03 22:17:29.059691038 +0900
