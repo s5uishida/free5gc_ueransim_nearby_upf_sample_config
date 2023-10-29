@@ -14,6 +14,7 @@ This describes a very simple configuration that uses free5GC and UERANSIM to sel
 5. [ULCL(Uplink Classifier)](https://github.com/s5uishida/free5gc_ueransim_ulcl_sample_config)
 6. [ULCL with one I-UPF and two PSA-UPFs](https://github.com/s5uishida/free5gc_ueransim_ulcl_2_sample_config)
 7. [VPP-UPF with DPDK](https://github.com/s5uishida/free5gc_ueransim_vpp_upf_dpdk_sample_config)
+8. [eUPF(eBPF/XDP UPF)](https://github.com/s5uishida/free5gc_ueransim_eupf_sample_config)
 
 ---
 
