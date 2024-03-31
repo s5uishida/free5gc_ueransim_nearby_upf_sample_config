@@ -175,7 +175,7 @@ Please refer to the following for building free5GC and UERANSIM respectively.
 - `free5gc/config/amfcfg2.yaml`
 ```diff
 --- amfcfg.yaml.orig    2024-03-30 10:35:10.534612278 +0900
-+++ amfcfg2.yaml        2024-03-31 16:13:54.696190516 +0900
++++ amfcfg2.yaml        2024-03-31 17:06:03.278028423 +0900
 @@ -5,12 +5,12 @@
  configuration:
    amfName: AMF # the name of this AMF
@@ -198,9 +198,10 @@ Please refer to the following for building free5GC and UERANSIM respectively.
      - plmnId: # Public Land Mobile Network ID, <PLMN ID> = <MCC><MNC>
 -        mcc: 208 # Mobile Country Code (3 digits string, digit: 0~9)
 -        mnc: 93 # Mobile Network Code (2 or 3 digits string, digit: 0~9)
+-      amfId: cafe00 # AMF identifier (3 bytes hex string, range: 000000~FFFFFF)
 +        mcc: 001 # Mobile Country Code (3 digits string, digit: 0~9)
 +        mnc: 01 # Mobile Network Code (2 or 3 digits string, digit: 0~9)
-       amfId: cafe00 # AMF identifier (3 bytes hex string, range: 000000~FFFFFF)
++      amfId: cafe01 # AMF identifier (3 bytes hex string, range: 000000~FFFFFF)
    supportTaiList:  # the TAI (Tracking Area Identifier) list supported by this AMF
      - plmnId: # Public Land Mobile Network ID, <PLMN ID> = <MCC><MNC>
 -        mcc: 208 # Mobile Country Code (3 digits string, digit: 0~9)
